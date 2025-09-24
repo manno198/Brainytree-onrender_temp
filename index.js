@@ -2,7 +2,7 @@
 import express from "express";
 const app = express();
 
-app.get("*", (req, res) => {
+app.get("*", ( res) => {
   res.redirect("https://brainytree.vercel.app/");
 });
 
